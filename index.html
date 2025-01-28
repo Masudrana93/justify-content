@@ -6,9 +6,17 @@
     <title>Justify Content</title>
     <!-- Bootstrap CSS Link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .box{
+            width: 100%;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
 
+    <h1 class="d-flex justify-content-center">Justify Content</h1>
     <div class="container my-4">
         <div class="bg-primary d-flex justify-content-start">
             <div class="bg-danger">Justify</div>
@@ -73,6 +81,81 @@
             <div class="bg-info">Evenly</div>
         </div>
     </div>
+
+
+    <h1 class="d-flex justify-content-center">Align Items</h1>
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-start">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">Start</div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-end">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">End</div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-center">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">Center</div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-baseline">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">Baseline</div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-stretch">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">Stretch</div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-center justify-content-center ">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items and justify-content</div>
+            <div class="bg-info">Center</div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-start align-items-md-center">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">md-Center</div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box bg-light border border-success d-flex align-items-end align-items-lg-start">
+            <div class="bg-danger">Align</div>
+            <div class="bg-success">Items</div>
+            <div class="bg-info">lg-Start</div>
+
+        </div>
 
    
     
